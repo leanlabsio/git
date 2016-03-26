@@ -1,12 +1,12 @@
-# Git builder container
+*  Git builder container
 
 Docker git executable container.
 
-### Usage
+** Usage
 
-```bash
+#+BEGIN_SRC sh
 docker run --rm \
   -v `pwd`:/`pwd` \
   -w `pwd` \
   leanlabs/git clone https://github.com/leanlabsio/git.git
-```
+#+END_SRC
